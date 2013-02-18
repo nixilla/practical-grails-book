@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   day_01_starting_up_the_project
+
 
 
 Indices and tables
