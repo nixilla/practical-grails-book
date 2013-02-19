@@ -438,8 +438,8 @@ And navigate to ``http://localhost:8080/jobeet/job``
 
 As you can see on the image, the Category item is displayed as ``com.nixilla.jobeet.Category: 1``.
 This is because we haven't implemented ``toString`` method yet. Groovy provides basic toString implementation containing
-class name and id, which is not as useful as Doctrine guessing method. Add following ``toString`` method to all your 3 domain under
-existing ``mapping`` block.
+class name and id, which is not as useful as Doctrine guessing method. Add following ``toString`` method to all your
+3 domain classes under existing ``mapping`` block.
 
 .. code-block:: groovy
 
