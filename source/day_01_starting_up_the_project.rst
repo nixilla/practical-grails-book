@@ -157,7 +157,7 @@ To start your local application you need to issue following command (it may take
 
     grails
 
-This will start interactive Grails console. And while you're in this console, you can start you application, by typing:
+This will start interactive Grails console. And while you're in this console, you can start you application, by typing "run-app":
 
 .. code-block:: text
 
@@ -199,3 +199,8 @@ To add Grails app related files and create initail commit, use:
     git add -A && \
     git commit -m "Initial commit"
 
+Final Thoughts
+``````````````
+
+Grails is easier to set up than Symfony, all you need is java, curl, unzip and (optionally) git. The fact that you don't
+need to configure directory permissions and server setting is a big win. Simple *run-app* gets you going.
