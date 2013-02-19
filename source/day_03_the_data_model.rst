@@ -496,8 +496,18 @@ Final Thoughts
 ``````````````
 
 Both frameworks are great, there are some features where Symfony 1.4 is better, and some,  where Grails is better.
-For example I like Symfony modules, where you can group functionality based on common purpose. On the other hand
-I prefer Grails domain classes with static class level dynamic finders instead of Doctrine's Table classes.
+For example I like Symfony's:
+
+* modules, where you can group functionality based on common purpose,
+* control that Symfony gives you when creating or dropping database, generating SQL, etc.
+* build in support for loading/dumping fixtures
+
+On the other hand I prefer Grails':
+
+* domain classes with static class level dynamic finders instead of Doctrine's Table classes,
+* Groovy constructors where you can pass value for any field in the object,
+* way of hiding the link table in many-to-many relation (same as Doctrine 2)
+* support for TDD development by creating test for any artifact you create
 
 But most important - you can see that these frameworks are no so different. I'd even say that
 Grails is somewhere between Symfony 1.4 and Symfony 2.x in terms of structure.
