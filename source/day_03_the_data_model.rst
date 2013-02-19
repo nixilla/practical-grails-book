@@ -438,7 +438,7 @@ And navigate to ``http://localhost:8080/jobeet/job``
 
 As you can see on the image, the Category item is displayed as ``com.nixilla.jobeet.Category: 1``.
 This is because we haven't implemented ``toString`` method yet. Groovy provides basic toString implementation containing
-class name and id, which is not as useful as Doctrine guessing method. Add following method to all your 3 domain under
+class name and id, which is not as useful as Doctrine guessing method. Add following ``toString`` method to all your 3 domain under
 existing ``mapping`` block.
 
 .. code-block:: groovy
@@ -495,7 +495,7 @@ already defined validation rules in the static constraints block in the domain c
 Final Thoughts
 ``````````````
 
-Both frameworks are great, there are some feature where Symfony 1.4 is better, and some where Grails is better.
+Both frameworks are great, there are some features where Symfony 1.4 is better, and some,  where Grails is better.
 For example I like Symfony modules, where you can group functionality based on common purpose. On the other hand
 I prefer Grails domain classes with static class level dynamic finders instead of Doctrine's Table classes.
 
